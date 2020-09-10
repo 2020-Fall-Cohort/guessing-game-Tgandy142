@@ -14,6 +14,10 @@ public class GuessingGameApp
         {
             System.out.println("Congratulations! You guessed correctly!");
         }
+        else if(num == 0)
+        {
+            System.out.println("Please enter a number ONLY between 1-10 and press enter.");
+        }
         else
         {
             System.out.println("Sorry, you guessed wrong!");
